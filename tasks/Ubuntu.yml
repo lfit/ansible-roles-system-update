@@ -1,0 +1,8 @@
+---
+- name: Upgrade all packages
+  block:
+    - name: apt-get update
+      apt: update_cache=yes
+    - name: Update all packages
+      apt: upgrade=dist
+  become: true
