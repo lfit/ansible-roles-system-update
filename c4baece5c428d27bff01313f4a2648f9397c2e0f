@@ -1,0 +1,6 @@
+Code-Review+2: Thanh Ha <thanh.ha@linuxfoundation.org>
+Submitted-by: Thanh Ha <thanh.ha@linuxfoundation.org>
+Submitted-at: Tue, 13 Feb 2018 21:33:56 +0000
+Reviewed-on: https://gerrit.linuxfoundation.org/infra/8843
+Project: ansible/roles/system-update
+Branch: refs/heads/master
