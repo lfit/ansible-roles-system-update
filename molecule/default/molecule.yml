@@ -12,6 +12,8 @@ platforms:
     image: ubuntu:16.04
 provisioner:
   name: ansible
+  env:
+    ANSIBLE_ROLES_PATH: '$WORKSPACE/..'
   lint:
     name: ansible-lint
 scenario:
