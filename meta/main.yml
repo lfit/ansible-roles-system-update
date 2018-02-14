@@ -20,12 +20,14 @@ galaxy_info:
   #github_branch:
 
   platforms:
-  - name: CentOS
-    versions:
-    - 7
-  - name: Ubuntu
-    versions:
-    - 16.04
+    # EL == CentOS and RHEL
+    - name: EL
+      versions:
+        - 7
+    - name: Ubuntu
+      versions:
+        # 16.04
+        - xenial
 
   galaxy_tags:
   - security
