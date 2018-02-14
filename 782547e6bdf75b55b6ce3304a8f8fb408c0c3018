@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "24dd36c9_51c882a5",
+        "filename": "meta/main.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-02-14T20:38:07Z",
+      "side": 1,
+      "message": "I suggest we add in some tags and here\u0027s my suggestions:\nsecurity, system, update",
+      "revId": "782547e6bdf75b55b6ce3304a8f8fb408c0c3018",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
