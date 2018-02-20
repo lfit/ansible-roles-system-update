@@ -1,0 +1,7 @@
+Verified+1: Jenkins CI <releng+lf-jenkins@linuxfoundation.org>
+Code-Review+2: Thanh Ha <thanh.ha@linuxfoundation.org>
+Submitted-by: Thanh Ha <thanh.ha@linuxfoundation.org>
+Submitted-at: Tue, 20 Feb 2018 21:10:56 +0000
+Reviewed-on: https://gerrit.linuxfoundation.org/infra/8848
+Project: ansible/roles/system-update
+Branch: refs/heads/master
