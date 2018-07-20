@@ -1,0 +1,7 @@
+Verified+1: Jenkins CI <releng+lf-jenkins@linuxfoundation.org>
+Code-Review+2: Trevor Bramwell <tbramwell@linuxfoundation.org>
+Submitted-by: Thanh Ha <thanh.ha@linuxfoundation.org>
+Submitted-at: Fri, 20 Jul 2018 21:09:26 +0000
+Reviewed-on: https://gerrit.linuxfoundation.org/infra/11879
+Project: ansible/roles/system-update
+Branch: refs/heads/master
