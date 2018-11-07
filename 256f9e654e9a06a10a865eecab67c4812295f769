@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ea0fed4c_724313cc",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-11-07T18:32:17Z",
+      "side": 1,
+      "message": "We should be updating the docs to state this. People won\u0027t get this info from the commit message.",
+      "range": {
+        "startLine": 12,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 51
+      },
+      "revId": "256f9e654e9a06a10a865eecab67c4812295f769",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
