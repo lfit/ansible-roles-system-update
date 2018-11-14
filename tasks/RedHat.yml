@@ -5,6 +5,4 @@
       yum: name=deltarpm state=latest
     - name: Update all packages
       yum: name=* state=latest update_cache=yes
-    - name: Autoremove packages no longer required
-      yum: autoremove=yes
   become: true
