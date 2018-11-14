@@ -1,0 +1,7 @@
+Code-Review+2: Vanessa Rene Valderrama <vvalderrama@linuxfoundation.org>
+Verified+1: Jenkins CI <releng+lf-jenkins@linuxfoundation.org>
+Submitted-by: Andrew Grimberg <agrimberg@linuxfoundation.org>
+Submitted-at: Wed, 14 Nov 2018 17:23:27 +0000
+Reviewed-on: https://gerrit.linuxfoundation.org/infra/13523
+Project: ansible/roles/system-update
+Branch: refs/heads/master
