@@ -1,0 +1,7 @@
+Verified+1: Jenkins CI <releng+lf-jenkins@linuxfoundation.org>
+Code-Review+2: Aric Gardner <agardner@linuxfoundation.org>
+Submitted-by: Aric Gardner <agardner@linuxfoundation.org>
+Submitted-at: Tue, 27 Aug 2019 20:08:56 +0000
+Reviewed-on: https://gerrit.linuxfoundation.org/infra/c/ansible/roles/system-update/+/16705
+Project: ansible/roles/system-update
+Branch: refs/heads/master
