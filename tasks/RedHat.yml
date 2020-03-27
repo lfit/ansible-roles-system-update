@@ -3,6 +3,8 @@
   block:
     - name: Install deltarpm
       yum: name=deltarpm state=present
+      when:
+        - ansible_distribution < '8'
     - name: Update all packages
-      yum: name=* state=present update_cache=yes
+      yum: name=* state=latest update_cache=yes update_only=yes
   become: true
