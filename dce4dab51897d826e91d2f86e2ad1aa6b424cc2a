@@ -1,0 +1,7 @@
+Verified+1: Jenkins CI <releng+lf-jenkins@linuxfoundation.org>
+Code-Review+2: Anil Belur <abelur@linuxfoundation.org>
+Submitted-by: Anil Belur <abelur@linuxfoundation.org>
+Submitted-at: Mon, 17 Aug 2020 03:23:32 +0000
+Reviewed-on: https://gerrit.linuxfoundation.org/infra/c/ansible/roles/system-update/+/65104
+Project: ansible/roles/system-update
+Branch: refs/heads/master
