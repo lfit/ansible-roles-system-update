@@ -1,5 +1,7 @@
 ---
 galaxy_info:
+  namespace: lfit
+  role_name: system_update
   author: Linux Foundation Release Engineering
   description: Simple system update role. Supports CentOS 7 and Ubuntu 16.04
   company: The Linux Foundation
@@ -26,10 +28,14 @@ galaxy_info:
     - name: EL
       versions:
         - 7
+        - 8
+        - 9
+
     - name: Ubuntu
       versions:
-        # 16.04
         - xenial
+        - bionic
+        - focal
 
   galaxy_tags:
     - security
