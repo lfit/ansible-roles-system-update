@@ -1,10 +1,16 @@
 ---
 - name: Upgrade all packages
+  become: true
   block:
     - name: Install deltarpm
-      yum: name=deltarpm state=present
+      ansible.builtin.yum:
+        name:
+          - deltarpm
+        state: present
       when:
         - ansible_distribution < '8'
     - name: Update all packages
-      yum: name=* state=latest update_cache=yes update_only=yes
-  become: true
+      ansible.builtin.yum:
+        state: latest
+        update_cache: yes
+        update_only: yes
