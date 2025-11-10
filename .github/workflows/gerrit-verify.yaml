@@ -113,6 +113,7 @@ jobs:
         distro:
           - ubuntu2004
           - ubuntu2204
+          - ubuntu2404
       fail-fast: false
     steps:
       - name: Gerrit Checkout
@@ -134,6 +135,7 @@ jobs:
           PY_COLORS: "1"
           ANSIBLE_FORCE_COLOR: "1"
           MOLECULE_PLATFORM_NAME: ${{ matrix.distro }}
+          ANSIBLE_ROLES_PATH: "${GITHUB_WORKSPACE}"
 
   vote:
     if: ${{ always() }}
