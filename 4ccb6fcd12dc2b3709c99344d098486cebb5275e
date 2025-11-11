@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "22c262e2_7167e36b",
+        "filename": "molecule/default/molecule.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2025-11-11T14:15:35Z",
+      "side": 1,
+      "message": "Since you\u0027re removing EOL versions, shouldn\u0027t ubuntu1804 and ubuntu2004 be removed as well?",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 23
+      },
+      "revId": "4ccb6fcd12dc2b3709c99344d098486cebb5275e",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
