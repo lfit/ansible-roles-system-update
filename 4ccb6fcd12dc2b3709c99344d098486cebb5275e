@@ -22,6 +22,30 @@
       },
       "revId": "4ccb6fcd12dc2b3709c99344d098486cebb5275e",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8095aa6a_0706be30",
+        "filename": "molecule/default/molecule.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2025-11-11T21:52:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "22c262e2_7167e36b",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 23
+      },
+      "revId": "4ccb6fcd12dc2b3709c99344d098486cebb5275e",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
   ]
 }
