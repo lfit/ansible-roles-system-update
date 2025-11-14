@@ -129,11 +129,11 @@ jobs:
           pip3 install ansible ansible-lint molecule-plugins[docker] docker
       - name: Run Molecule tests.
         run: molecule test
-        working-directory: ${{env.working-directory}}
         env:
           PY_COLORS: "1"
           ANSIBLE_FORCE_COLOR: "1"
           MOLECULE_PLATFORM_NAME: ${{ matrix.distro }}
+          MOLECULE_PROJECT_DIRECTORY: ${{ github.workspace }}
           ANSIBLE_ROLES_PATH: ${{ github.workspace }}
 
   vote:
