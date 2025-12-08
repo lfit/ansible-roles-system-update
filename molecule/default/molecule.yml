@@ -2,31 +2,28 @@
 dependency:
   name: galaxy
 driver:
-  name: docker
+  name: podman
 platforms:
-  - name: centos7
-    image: centos:7
-  - name: centos8
-    image: quay.io/centos/centos:stream8
-  - name: ubuntu1804
-    image: ubuntu:18.04
-  - name: ubuntu2004
-    image: ubuntu:20.04
   - name: ubuntu2204
     image: ubuntu:22.04
+  - name: ubuntu2404
+    image: ubuntu:24.04
 provisioner:
   name: ansible
 scenario:
   name: default
   test_sequence:
-    - destroy
     - dependency
+    - cleanup
+    - destroy
     - syntax
     - create
     - prepare
     - converge
+    - idempotence
     - side_effect
     - verify
+    - cleanup
     - destroy
 verifier:
   name: testinfra
