@@ -5,6 +5,7 @@
     - name: Update cache
       ansible.builtin.package:
         update_cache: yes
+      changed_when: false
     - name: Update all packages
       ansible.builtin.package:
         upgrade: dist
