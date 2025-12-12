@@ -3,7 +3,7 @@ galaxy_info:
   namespace: lfit
   role_name: system_update
   author: Linux Foundation Release Engineering
-  description: Simple system update role. Supports CentOS 7 and Ubuntu 16.04
+  description: Simple system update role. Supports CentOS/RHEL 7/8/9 and Ubuntu 20.04+
   company: The Linux Foundation
 
   issue_tracker_url: https://jira.linuxfoundation.org
@@ -29,11 +29,10 @@ galaxy_info:
       versions:
         - 7
         - 8
+        - 9
 
     - name: Ubuntu
       versions:
-        - xenial
-        - bionic
         - focal
         - jammy
         - noble

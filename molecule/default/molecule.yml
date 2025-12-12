@@ -8,6 +8,8 @@ platforms:
     image: ubuntu:22.04
   - name: ubuntu2404
     image: ubuntu:24.04
+  - name: centos-stream9
+    image: quay.io/centos/centos:stream9
 provisioner:
   name: ansible
 scenario:
