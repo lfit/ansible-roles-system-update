@@ -113,7 +113,6 @@ jobs:
         distro:
           - ubuntu2204
           - ubuntu2404
-          - centos-stream9
       fail-fast: false
     steps:
       - name: Gerrit Checkout
