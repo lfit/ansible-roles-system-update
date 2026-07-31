@@ -1,0 +1,8 @@
+Verified+1: LFIT GitHub-Gerrit <releng+github-lfit-gerrit@linuxfoundation.org>
+Code-Review+2: Eric Ball <eball@linuxfoundation.org>
+Verified+1: LFIT Required GHA <releng+lfit-required-gha@linuxfoundation.org>
+Submitted-by: Eric Ball <eball@linuxfoundation.org>
+Submitted-at: Fri, 31 Jul 2026 01:16:44 +0000
+Reviewed-on: https://gerrit.linuxfoundation.org/infra/c/ansible/roles/system-update/+/74575
+Project: ansible/roles/system-update
+Branch: refs/heads/master
